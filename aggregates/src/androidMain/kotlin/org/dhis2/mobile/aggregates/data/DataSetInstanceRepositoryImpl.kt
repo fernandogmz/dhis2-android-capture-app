@@ -179,6 +179,8 @@ internal class DataSetInstanceRepositoryImpl(
 
                                     DataSetNonEditableReason.EXPIRED ->
                                         NonEditableReason.Expired
+
+                                    DataSetNonEditableReason.PERIOD_NOT_IN_DATA_INPUT_PERIODS -> TODO()
                                 }
                             } ?: NonEditableReason.None,
                     )
